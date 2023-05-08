@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="XYZModelStoreContainer" CdmEntityContainer="XYZContex">
+    <EntitySetMapping Name="T_ABC">
+      <EntityTypeMapping TypeName="XYZModel.T_ABC">
+        <MappingFragment StoreEntitySet="T_ABC">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="CAREGORY" ColumnName="CAREGORY" />
+          <ScalarProperty Name="STOCK" ColumnName="STOCK" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="DATETIME" ColumnName="DATETIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
